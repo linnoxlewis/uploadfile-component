@@ -1,0 +1,35 @@
+{
+    "name": "linnoxlewis/uploadfile-component",
+    "description": "The Yii2 component for uploading files to the server.",
+    "type": "yii2-extension",
+    "keywords": ["Yii2","component","uploading"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Osipenko",
+            "email": "linnoxlewis@gmail.com",
+            "homepage": "https://github.com/linnoxlewis"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/linnoxlewis/uploadfile-component.git"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/linnoxlewis/uploadfile-component.git"
+
+        }
+    ],
+   
+    "minimum-stability" : "dev",
+     "prefer-stable": true ,
+    "autoload": {
+        "psr-4": {
+            "linnoxlewis\\uploadfile\\component\\": "src/"
+        }
+    },
+    "require": {
+        "linnoxlewis/uploadfile-component": "dev-master"
+    }
+}
